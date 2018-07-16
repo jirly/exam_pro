@@ -1,9 +1,13 @@
-package com.hsbc.exam;
+package com.jirly.exam;
 
 /**
  * Created by User on 2018/7/15.
  */
 public class Practice {
+
+    /**
+     * practice1
+     */
     public static void practice1() {
         for (int i = 1; i <= 100; i++) {
             if (i%3 == 0) {
@@ -25,6 +29,9 @@ public class Practice {
         }
     }
 
+    /**
+     * practeice2
+     */
     public static void practice2() {
         for (int i = 1; i <= 100; i++) {
             if (i%3 == 0 || containsDigtal(i,3)) {
@@ -46,6 +53,13 @@ public class Practice {
         }
     }
 
+    /**
+     * 检查是否某个数字orgDigtal 中是否含有另外一个数字containDigtal
+     * check the original digital contains another digital
+     * @param orgDigtal
+     * @param containDigtal
+     * @return
+     */
     private static boolean containsDigtal(int orgDigtal,int containDigtal) {
         return String.valueOf(orgDigtal).contains(String.valueOf(containDigtal));
     }

@@ -1,6 +1,6 @@
-package com.hsbc.test;
+package com.jirly.test;
 
-import com.hsbc.exam.Practice;
+import com.jirly.exam.Practice;
 import org.junit.Test;
 
 /**
